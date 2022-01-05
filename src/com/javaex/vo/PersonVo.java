@@ -19,6 +19,17 @@ public class PersonVo {
 		this.hp = hp;
 		this.company = company;
 	}
+	
+	
+	public PersonVo(int personId) {
+		this.personId = personId;
+	}
+	
+	
+	
+	public PersonVo() {
+		
+	}
 
 	public int getPersonId() {
 		return personId;
